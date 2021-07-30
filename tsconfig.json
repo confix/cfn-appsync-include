@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2015",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "allowJs": true,
+        "noImplicitAny": true,
+        "outDir": "./dist",
+        "noUnusedLocals": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "noImplicitReturns": true,
+        "preserveConstEnums": true,
+        "esModuleInterop": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "forceConsistentCasingInFileNames": true,
+        "lib": ["ESNext", "ES2020.Promise", "DOM"],
+    },
+    "exclude": [ "node_modules", "**/*.tests.ts" ],
+    "include": ["**/*.ts"],
+    "files": [
+        "js-yaml.d.ts"
+    ]
+}

@@ -1,0 +1,6 @@
+Resources:
+  MyTestResource:
+    Type: AWS::AppSync::Resolver
+    Properties:
+      FieldName: Test
+      TypeName: Query
