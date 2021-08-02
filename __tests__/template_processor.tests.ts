@@ -1,7 +1,9 @@
 import {TemplateProcessor} from "../lib/template-processor";
 import {CfnTemplate} from "../lib/types";
 import {ResourceHandlerRegistry} from "../lib/resource-handler-registry";
+import {log, LogLevel} from "../lib/logger";
 
+log.setLevel(LogLevel.OFF);
 
 const read = jest.fn();
 

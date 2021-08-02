@@ -1,5 +1,8 @@
 import {YamlTemplateReader} from "../lib/yaml-template-reader";
 import * as path from "path";
+import {log, LogLevel} from "../lib/logger";
+
+log.setLevel(LogLevel.OFF);
 
 describe("YamlTemplateReader", () => {
    it("", () => {
