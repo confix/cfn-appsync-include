@@ -1,6 +1,6 @@
 {
   "name": "cfn-appsync-include",
-  "version": "0.0.1",
+  "version": "0.0.2-alpha.0",
   "bin": "./dist/cli/index.js",
   "license": "MIT",
   "private": false,
